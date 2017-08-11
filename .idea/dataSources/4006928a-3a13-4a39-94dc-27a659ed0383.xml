@@ -1,0 +1,167 @@
+<dataSource name="MySQL - qq@192.168.1.161">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="qq">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="hunter2" />
+    <schema id="3" name="information_schema" />
+    <schema id="4" name="maimai" />
+    <schema id="5" name="mysql" />
+    <schema id="6" name="provider" />
+    <schema id="7" name="test" />
+    <schema id="8" name="weibo" />
+    <table id="9" parent="1" name="qq_f" />
+    <table id="10" parent="1" name="qq_p" />
+    <column id="11" parent="9" name="uid">
+      <mandatory>1</mandatory>
+      <data-type>varchar(125)|0</data-type>
+    </column>
+    <column id="12" parent="9" name="curnum">
+      <data-type>varchar(125)|0</data-type>
+    </column>
+    <column id="13" parent="9" name="hasnext">
+      <data-type>varchar(125)|0</data-type>
+    </column>
+    <column id="14" parent="9" name="info">
+      <data-type>text|0</data-type>
+    </column>
+    <column id="15" parent="9" name="nextstartpos">
+      <data-type>varchar(125)|0</data-type>
+    </column>
+    <column id="16" parent="9" name="totalnum">
+      <data-type>varchar(125)|0</data-type>
+    </column>
+    <key id="17" parent="9" name="PRIMARY">
+      <columns>uid</columns>
+      <primary>1</primary>
+    </key>
+    <column id="18" parent="10" name="uid">
+      <mandatory>1</mandatory>
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="19" parent="10" name="birth_day">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="20" parent="10" name="birth_month">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="21" parent="10" name="birth_year">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="22" parent="10" name="city_code">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="23" parent="10" name="comp">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="24" parent="10" name="country_code">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="25" parent="10" name="edu">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="26" parent="10" name="email">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="27" parent="10" name="exp">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="28" parent="10" name="fansnum">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="29" parent="10" name="favnum">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="30" parent="10" name="head">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="31" parent="10" name="homecity_code">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="32" parent="10" name="homecountry_code">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="33" parent="10" name="homepage">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="34" parent="10" name="homeprovince_code">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="35" parent="10" name="hometown_code">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="36" parent="10" name="idolnum">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="37" parent="10" name="industry_code">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="38" parent="10" name="introduction">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="39" parent="10" name="isent">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="40" parent="10" name="ismyblack">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="41" parent="10" name="ismyfans">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="42" parent="10" name="ismyidol">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="43" parent="10" name="isrealname">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="44" parent="10" name="isvip">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="45" parent="10" name="level">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="46" parent="10" name="location">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="47" parent="10" name="mutual_fans_num">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="48" parent="10" name="name">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="49" parent="10" name="nick">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="50" parent="10" name="openid">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="51" parent="10" name="province_code">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="52" parent="10" name="regtime">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="53" parent="10" name="send_private_flag">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="54" parent="10" name="sex">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="55" parent="10" name="tag">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <column id="56" parent="10" name="tweetinfo">
+      <data-type>text|0</data-type>
+    </column>
+    <column id="57" parent="10" name="tweetnum">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="58" parent="10" name="verifyinfo">
+      <data-type>varchar(128)|0</data-type>
+    </column>
+    <key id="59" parent="10" name="PRIMARY">
+      <columns>uid</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
